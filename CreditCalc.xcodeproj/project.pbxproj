@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17978B9AB462C9F2E957ABB5 /* Pods_CreditCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691CFB63C878683E58C01D /* Pods_CreditCalc.framework */; };
+		D7A52488231202DE00B83EC4 /* Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A52487231202DE00B83EC4 /* Rounded.swift */; };
+		D7A5248A23120D7B00B83EC4 /* RoundedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A5248923120D7B00B83EC4 /* RoundedLabel.swift */; };
+		FA21C12E214FF1D800FEEE04 /* AnnuitPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA21C12D214FF1D800FEEE04 /* AnnuitPopupView.swift */; };
+		FA466B26211645E5001717DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA466B25211645E5001717DA /* AppDelegate.swift */; };
+		FA466B28211645E5001717DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA466B27211645E5001717DA /* ViewController.swift */; };
+		FA466B2B211645E5001717DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA466B29211645E5001717DA /* Main.storyboard */; };
+		FA466B2D211645E6001717DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA466B2C211645E6001717DA /* Assets.xcassets */; };
+		FA466B30211645E6001717DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA466B2E211645E6001717DA /* LaunchScreen.storyboard */; };
+		FA6D4EF7214464090037567C /* DifferPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6D4EF6214464090037567C /* DifferPopupView.swift */; };
+		FA9E691B2199C08000378D35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA9E691D2199C08000378D35 /* Localizable.strings */; };
+		FA9E691F2199C20200378D35 /* DifferPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9E69212199C20200378D35 /* DifferPopupView.xib */; };
+		FA9E69262199C2B000378D35 /* AnnuitPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9E69282199C2B000378D35 /* AnnuitPopupView.xib */; };
+		FA9E69362199CE6500378D35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA9E69382199CE6500378D35 /* InfoPlist.strings */; };
+		FAF6021C21446855003232EB /* DeviceChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6021B21446855003232EB /* DeviceChecker.swift */; };
+		FAF6021E21446D5C003232EB /* CalculationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6021D21446D5C003232EB /* CalculationHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A3FDDA98D991421DFD2E3E2 /* Pods-CreditCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCalc.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreditCalc/Pods-CreditCalc.release.xcconfig"; sourceTree = "<group>"; };
+		BA691CFB63C878683E58C01D /* Pods_CreditCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5D5541BA4C07BF9D194080 /* Pods-CreditCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCalc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreditCalc/Pods-CreditCalc.debug.xcconfig"; sourceTree = "<group>"; };
+		D7A52487231202DE00B83EC4 /* Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rounded.swift; sourceTree = "<group>"; };
+		D7A5248923120D7B00B83EC4 /* RoundedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedLabel.swift; sourceTree = "<group>"; };
+		FA21C12D214FF1D800FEEE04 /* AnnuitPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnuitPopupView.swift; sourceTree = "<group>"; };
+		FA466B22211645E5001717DA /* CreditCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA466B25211645E5001717DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA466B27211645E5001717DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA466B2A211645E5001717DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA466B2C211645E6001717DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA466B2F211645E6001717DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA6D4EF6214464090037567C /* DifferPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferPopupView.swift; sourceTree = "<group>"; };
+		FA9E69152199BE7B00378D35 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		FA9E69162199BE7B00378D35 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FA9E69182199BEE300378D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FA9E691C2199C08000378D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA9E691E2199C08300378D35 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FA9E69202199C20200378D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DifferPopupView.xib; sourceTree = "<group>"; };
+		FA9E69232199C20600378D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DifferPopupView.strings; sourceTree = "<group>"; };
+		FA9E69252199C20800378D35 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/DifferPopupView.strings; sourceTree = "<group>"; };
+		FA9E69272199C2B000378D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AnnuitPopupView.xib; sourceTree = "<group>"; };
+		FA9E692A2199C2B400378D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AnnuitPopupView.strings; sourceTree = "<group>"; };
+		FA9E692C2199C2B500378D35 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/AnnuitPopupView.strings; sourceTree = "<group>"; };
+		FA9E69322199CD4900378D35 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+		FA9E69372199CE6500378D35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA9E69392199CE6700378D35 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAF6021B21446855003232EB /* DeviceChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceChecker.swift; sourceTree = "<group>"; };
+		FAF6021D21446D5C003232EB /* CalculationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA466B1F211645E5001717DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17978B9AB462C9F2E957ABB5 /* Pods_CreditCalc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23360335E0A159BBFA02D7B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD5D5541BA4C07BF9D194080 /* Pods-CreditCalc.debug.xcconfig */,
+				2A3FDDA98D991421DFD2E3E2 /* Pods-CreditCalc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FBCCBCF32C564DD64C27A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA691CFB63C878683E58C01D /* Pods_CreditCalc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA466B19211645E5001717DA = {
+			isa = PBXGroup;
+			children = (
+				FA466B24211645E5001717DA /* CreditCalc */,
+				FA466B23211645E5001717DA /* Products */,
+				23360335E0A159BBFA02D7B5 /* Pods */,
+				2FBCCBCF32C564DD64C27A6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA466B23211645E5001717DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA466B22211645E5001717DA /* CreditCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA466B24211645E5001717DA /* CreditCalc */ = {
+			isa = PBXGroup;
+			children = (
+				FA466B25211645E5001717DA /* AppDelegate.swift */,
+				FA466B27211645E5001717DA /* ViewController.swift */,
+				FA9E69382199CE6500378D35 /* InfoPlist.strings */,
+				FA9E691D2199C08000378D35 /* Localizable.strings */,
+				FA466B29211645E5001717DA /* Main.storyboard */,
+				FA9E69212199C20200378D35 /* DifferPopupView.xib */,
+				FA9E69282199C2B000378D35 /* AnnuitPopupView.xib */,
+				FA21C12D214FF1D800FEEE04 /* AnnuitPopupView.swift */,
+				FA9E69322199CD4900378D35 /* Info.plist */,
+				FA6D4EF6214464090037567C /* DifferPopupView.swift */,
+				FAF6021D21446D5C003232EB /* CalculationHandler.swift */,
+				FAF6021B21446855003232EB /* DeviceChecker.swift */,
+				FA466B2C211645E6001717DA /* Assets.xcassets */,
+				FA466B2E211645E6001717DA /* LaunchScreen.storyboard */,
+				D7A52487231202DE00B83EC4 /* Rounded.swift */,
+				D7A5248923120D7B00B83EC4 /* RoundedLabel.swift */,
+			);
+			path = CreditCalc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA466B21211645E5001717DA /* CreditCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA466B34211645E6001717DA /* Build configuration list for PBXNativeTarget "CreditCalc" */;
+			buildPhases = (
+				B6151D75A90A72014AD83654 /* [CP] Check Pods Manifest.lock */,
+				FA466B1E211645E5001717DA /* Sources */,
+				FA466B1F211645E5001717DA /* Frameworks */,
+				FA466B20211645E5001717DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCalc;
+			productName = CreditCalc;
+			productReference = FA466B22211645E5001717DA /* CreditCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA466B1A211645E5001717DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Максим Белугин";
+				TargetAttributes = {
+					FA466B21211645E5001717DA = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = FA466B1D211645E5001717DA /* Build configuration list for PBXProject "CreditCalc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = FA466B19211645E5001717DA;
+			productRefGroup = FA466B23211645E5001717DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA466B21211645E5001717DA /* CreditCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA466B20211645E5001717DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9E69262199C2B000378D35 /* AnnuitPopupView.xib in Resources */,
+				FA9E69362199CE6500378D35 /* InfoPlist.strings in Resources */,
+				FA9E691B2199C08000378D35 /* Localizable.strings in Resources */,
+				FA466B30211645E6001717DA /* LaunchScreen.storyboard in Resources */,
+				FA9E691F2199C20200378D35 /* DifferPopupView.xib in Resources */,
+				FA466B2D211645E6001717DA /* Assets.xcassets in Resources */,
+				FA466B2B211645E5001717DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6151D75A90A72014AD83654 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreditCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA466B1E211645E5001717DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6D4EF7214464090037567C /* DifferPopupView.swift in Sources */,
+				FA466B28211645E5001717DA /* ViewController.swift in Sources */,
+				FA21C12E214FF1D800FEEE04 /* AnnuitPopupView.swift in Sources */,
+				FAF6021E21446D5C003232EB /* CalculationHandler.swift in Sources */,
+				FA466B26211645E5001717DA /* AppDelegate.swift in Sources */,
+				D7A52488231202DE00B83EC4 /* Rounded.swift in Sources */,
+				D7A5248A23120D7B00B83EC4 /* RoundedLabel.swift in Sources */,
+				FAF6021C21446855003232EB /* DeviceChecker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA466B29211645E5001717DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA466B2A211645E5001717DA /* Base */,
+				FA9E69152199BE7B00378D35 /* ru */,
+				FA9E69182199BEE300378D35 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA466B2E211645E6001717DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA466B2F211645E6001717DA /* Base */,
+				FA9E69162199BE7B00378D35 /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9E691D2199C08000378D35 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9E691C2199C08000378D35 /* en */,
+				FA9E691E2199C08300378D35 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		FA9E69212199C20200378D35 /* DifferPopupView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9E69202199C20200378D35 /* Base */,
+				FA9E69232199C20600378D35 /* en */,
+				FA9E69252199C20800378D35 /* ru */,
+			);
+			name = DifferPopupView.xib;
+			sourceTree = "<group>";
+		};
+		FA9E69282199C2B000378D35 /* AnnuitPopupView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9E69272199C2B000378D35 /* Base */,
+				FA9E692A2199C2B400378D35 /* en */,
+				FA9E692C2199C2B500378D35 /* ru */,
+			);
+			name = AnnuitPopupView.xib;
+			sourceTree = "<group>";
+		};
+		FA9E69382199CE6500378D35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9E69372199CE6500378D35 /* en */,
+				FA9E69392199CE6700378D35 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA466B32211645E6001717DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA466B33211645E6001717DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA466B35211645E6001717DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD5D5541BA4C07BF9D194080 /* Pods-CreditCalc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CH5X58D8X;
+				INFOPLIST_FILE = CreditCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DenisPerry.loancalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA466B36211645E6001717DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3FDDA98D991421DFD2E3E2 /* Pods-CreditCalc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CH5X58D8X;
+				INFOPLIST_FILE = CreditCalc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DenisPerry.loancalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA466B1D211645E5001717DA /* Build configuration list for PBXProject "CreditCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA466B32211645E6001717DA /* Debug */,
+				FA466B33211645E6001717DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA466B34211645E6001717DA /* Build configuration list for PBXNativeTarget "CreditCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA466B35211645E6001717DA /* Debug */,
+				FA466B36211645E6001717DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA466B1A211645E5001717DA /* Project object */;
+}

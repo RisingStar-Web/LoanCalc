@@ -1,0 +1,57 @@
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "0hM-bN-1Qa"; */
+"0hM-bN-1Qa.placeholder" = "0";
+
+/* Class = "UILabel"; text = "Аннуитетный платеж"; ObjectID = "2R6-1G-bzy"; */
+"2R6-1G-bzy.text" = "Annuity payment";
+
+/* Class = "UILabel"; text = "Платежи:"; ObjectID = "3Pd-8e-MdA"; */
+"3Pd-8e-MdA.text" = "Payments:";
+
+/* Class = "UISegmentedControl"; 4f9-tM-aL5.segmentTitles[0] = "Аннуитетные"; ObjectID = "4f9-tM-aL5"; */
+"4f9-tM-aL5.segmentTitles[0]" = "Annuity";
+
+/* Class = "UISegmentedControl"; 4f9-tM-aL5.segmentTitles[1] = "Дифференцированные"; ObjectID = "4f9-tM-aL5"; */
+"4f9-tM-aL5.segmentTitles[1]" = "Differentiated";
+
+/* Class = "UILabel"; text = "Процентная ставка:"; ObjectID = "EUg-dj-waA"; */
+"EUg-dj-waA.text" = "Mortgage rate:";
+
+/* Class = "UILabel"; text = "Количество"; ObjectID = "Eqq-ky-Ltk"; */
+"Eqq-ky-Ltk.text" = "Number of";
+
+/* Class = "UILabel"; text = "Кредитный\nкалькулятор"; ObjectID = "IPz-iN-bXM"; */
+"IPz-iN-bXM.text" = "Loan\ncalculator";
+
+/* Class = "UIButton"; normalTitle = "Рассчитать"; ObjectID = "KIt-7d-Heg"; */
+"KIt-7d-Heg.normalTitle" = "Count";
+
+/* Class = "UIButton"; normalTitle = "╳"; ObjectID = "OlU-Qg-OJP"; */
+"OlU-Qg-OJP.normalTitle" = "╳";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "QML-nu-kwQ"; */
+"QML-nu-kwQ.placeholder" = "0";
+
+/* Class = "UIButton"; normalTitle = "?"; ObjectID = "Rlr-d2-Gqf"; */
+"Rlr-d2-Gqf.normalTitle" = "?";
+
+/* Class = "UILabel"; text = "%"; ObjectID = "T0l-Mi-Sf5"; */
+"T0l-Mi-Sf5.text" = "%";
+
+/* Class = "UILabel"; text = "представляет собой равные ежемесячные транши, растянутые на весь срок кредитования. В сумму транша включены: часть ссудной задолженности, начисленный процент, дополнительные комиссии и сборы банка (при наличии). При этом, в первые месяцы (или годы) кредита большую часть транша составляют проценты, а меньшую – погашаемая часть основного долга. Ближе к концу кредитования пропорция меняется: большая часть транша идет на погашение «тела» кредита, меньшая – на проценты. При этом общий размер транша всегда остается одинаковым."; ObjectID = "WWS-Oo-T4b"; */
+"WWS-Oo-T4b.text" = "is an annuity whose payment is due immediately at the beginning of each period. A common example of an annuity due payment is rent, as landlords often require payment upon the start of a new month as opposed to collecting it after the renter has enjoyed the benefits of the apartment for an entire month.";
+
+/* Class = "UIButton"; normalTitle = "месяцев"; ObjectID = "b52-6K-yYe"; */
+"b52-6K-yYe.normalTitle" = "months";
+
+/* Class = "UILabel"; text = "Сумма:"; ObjectID = "cGX-bi-0gJ"; */
+"cGX-bi-0gJ.text" = "Amount:";
+
+/* Class = "UILabel"; text = "представляет собой неравные ежемесячные транши, пропорционально уменьшающиеся в течение срока кредитования. Наибольшие платежи – в первой четверти срока, наименьшие – в четвертой четверти. «Срединные» платежи обычно сравнимы с аннуитетом. Ежемесячно тело кредита уменьшается на равную долю, процент же насчитывается на остаток задолженности. Поэтому сумма транша меняется от выплаты к выплате."; ObjectID = "fG9-FT-MXC"; */
+"fG9-FT-MXC.text" = "is reduced each month due to the fact that the debt is reduced in equal installments, and interest will be charged monthly on the remaining debt. Differentiated payment is more favorable than annuity.";
+
+/* Class = "UITextField"; placeholder = "0"; ObjectID = "gPX-YN-v0Y"; */
+"gPX-YN-v0Y.placeholder" = "0";
+
+/* Class = "UILabel"; text = "Дифференцированный платеж"; ObjectID = "xec-Zf-QPP"; */
+"xec-Zf-QPP.text" = "Differentiated payment";

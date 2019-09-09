@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="XZq-HB-fIH" customClass="DifferPopupView" customModule="CreditCalc" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="535"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ziH-Xn-k3r">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="485"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnU-44-mIP">
+                            <rect key="frame" x="20" y="20" width="189.5" height="62.5"/>
+                            <string key="text">Ежемесячный
+платеж:</string>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Lc-dm-IWz">
+                            <rect key="frame" x="20" y="90.5" width="78" height="32"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="jWK-Ci-qeE"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                            <state key="normal" title="23500">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="paymentButtonAction:" destination="XZq-HB-fIH" eventType="touchUpInside" id="vFk-ub-Yn1"/>
+                                <outletCollection property="gestureRecognizers" destination="b0n-wg-3Tg" appends="YES" id="i9N-oB-j2A"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EC7-Fo-qpJ">
+                            <rect key="frame" x="20" y="130.5" width="339" height="88"/>
+                            <subviews>
+                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.20000000298023224" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="27P-SR-R7q">
+                                    <rect key="frame" x="-2" y="0.0" width="343" height="35"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="34" id="EVA-Zn-kIi"/>
+                                    </constraints>
+                                </slider>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оплата за 1 месяц" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nec-ds-4Wr">
+                                    <rect key="frame" x="0.0" y="42" width="167.5" height="38"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="27P-SR-R7q" secondAttribute="trailing" id="dvM-Rd-ZOR"/>
+                                <constraint firstItem="nec-ds-4Wr" firstAttribute="top" secondItem="27P-SR-R7q" secondAttribute="bottom" constant="8" id="ekz-fB-yK7"/>
+                                <constraint firstItem="nec-ds-4Wr" firstAttribute="leading" secondItem="EC7-Fo-qpJ" secondAttribute="leading" id="enq-Pm-0ZS"/>
+                                <constraint firstAttribute="bottom" secondItem="nec-ds-4Wr" secondAttribute="bottom" constant="8" id="pGv-vw-4fq"/>
+                                <constraint firstItem="27P-SR-R7q" firstAttribute="leading" secondItem="EC7-Fo-qpJ" secondAttribute="leading" id="tVJ-dq-CrX"/>
+                                <constraint firstItem="27P-SR-R7q" firstAttribute="top" secondItem="EC7-Fo-qpJ" secondAttribute="top" id="xbp-G4-vcN"/>
+                                <constraint firstAttribute="height" constant="88" id="yul-hG-Xkr"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16X-mi-rWQ">
+                            <rect key="frame" x="20" y="226.5" width="158" height="62.5"/>
+                            <string key="text">Сумма всех
+платежей:</string>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9X-Di-EvC">
+                            <rect key="frame" x="20" y="297" width="78" height="30"/>
+                            <gestureRecognizers/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="SXa-UR-7oe" appends="YES" id="WLG-CQ-WgZ"/>
+                            </connections>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Переплата:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qv-aI-HAQ">
+                            <rect key="frame" x="20" y="343" width="152.5" height="31.5"/>
+                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVx-R8-5pG">
+                            <rect key="frame" x="20" y="382.5" width="78" height="30"/>
+                            <gestureRecognizers/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="0eY-Bb-6QZ" appends="YES" id="m1y-UR-e3k"/>
+                            </connections>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Скопировано" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3GC-Et-yO8">
+                            <rect key="frame" x="142.5" y="460" width="90.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="16X-mi-rWQ" firstAttribute="leading" secondItem="JnU-44-mIP" secondAttribute="leading" id="0Qt-3k-Rcj"/>
+                        <constraint firstItem="2Qv-aI-HAQ" firstAttribute="leading" secondItem="16X-mi-rWQ" secondAttribute="leading" id="6Gm-F1-DUB"/>
+                        <constraint firstItem="2Qv-aI-HAQ" firstAttribute="top" secondItem="L9X-Di-EvC" secondAttribute="bottom" constant="16" id="8yr-YR-qrt"/>
+                        <constraint firstItem="7Lc-dm-IWz" firstAttribute="top" secondItem="JnU-44-mIP" secondAttribute="bottom" constant="8" id="BsU-I9-fH6"/>
+                        <constraint firstItem="L9X-Di-EvC" firstAttribute="top" secondItem="16X-mi-rWQ" secondAttribute="bottom" constant="8" id="HSn-98-N9i"/>
+                        <constraint firstItem="3GC-Et-yO8" firstAttribute="centerX" secondItem="ziH-Xn-k3r" secondAttribute="centerX" id="NOu-fJ-SD7"/>
+                        <constraint firstItem="16X-mi-rWQ" firstAttribute="top" secondItem="EC7-Fo-qpJ" secondAttribute="bottom" constant="8" id="Q1B-Kv-5ek"/>
+                        <constraint firstItem="3GC-Et-yO8" firstAttribute="bottom" secondItem="Tad-54-zau" secondAttribute="bottom" constant="-8" id="YC8-SC-VS0"/>
+                        <constraint firstItem="EC7-Fo-qpJ" firstAttribute="leading" secondItem="7Lc-dm-IWz" secondAttribute="leading" id="aOH-Ll-oGb"/>
+                        <constraint firstItem="vVx-R8-5pG" firstAttribute="leading" secondItem="2Qv-aI-HAQ" secondAttribute="leading" id="eyk-a7-E8H"/>
+                        <constraint firstItem="7Lc-dm-IWz" firstAttribute="leading" secondItem="JnU-44-mIP" secondAttribute="leading" id="hBn-vW-gQG"/>
+                        <constraint firstItem="L9X-Di-EvC" firstAttribute="leading" secondItem="16X-mi-rWQ" secondAttribute="leading" id="hxK-fx-OA8"/>
+                        <constraint firstItem="Tad-54-zau" firstAttribute="trailing" secondItem="EC7-Fo-qpJ" secondAttribute="trailing" constant="16" id="kmR-ae-17v"/>
+                        <constraint firstItem="vVx-R8-5pG" firstAttribute="top" secondItem="2Qv-aI-HAQ" secondAttribute="bottom" constant="8" id="ssw-Uu-Zna"/>
+                        <constraint firstItem="EC7-Fo-qpJ" firstAttribute="top" secondItem="7Lc-dm-IWz" secondAttribute="bottom" constant="8" id="stb-V0-lYP"/>
+                        <constraint firstItem="JnU-44-mIP" firstAttribute="leading" secondItem="Tad-54-zau" secondAttribute="leading" constant="20" id="uGy-hb-Csn"/>
+                        <constraint firstItem="JnU-44-mIP" firstAttribute="top" secondItem="ziH-Xn-k3r" secondAttribute="top" constant="20" id="upx-Nn-TII"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="Tad-54-zau"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="bX4-vp-cg0" appends="YES" id="DNr-pW-XK1"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="ziH-Xn-k3r" firstAttribute="leading" secondItem="hqe-r8-5fi" secondAttribute="leading" id="CNW-71-IGg"/>
+                <constraint firstItem="ziH-Xn-k3r" firstAttribute="top" secondItem="XZq-HB-fIH" secondAttribute="top" id="UYh-ml-d5e"/>
+                <constraint firstItem="ziH-Xn-k3r" firstAttribute="trailing" secondItem="hqe-r8-5fi" secondAttribute="trailing" id="XI9-la-aNV"/>
+                <constraint firstItem="ziH-Xn-k3r" firstAttribute="bottom" secondItem="hqe-r8-5fi" secondAttribute="bottom" constant="-50" id="uiG-AV-AUt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="hqe-r8-5fi"/>
+            <connections>
+                <outlet property="copiedLabel" destination="3GC-Et-yO8" id="gX0-Zx-z4P"/>
+                <outlet property="heightOfSliderView" destination="yul-hG-Xkr" id="cFe-8h-tJE"/>
+                <outlet property="hosterView" destination="ziH-Xn-k3r" id="RhP-hy-78b"/>
+                <outlet property="monthOfPaymentLabel" destination="nec-ds-4Wr" id="5gD-7Q-hQe"/>
+                <outlet property="overpaymentLabel" destination="vVx-R8-5pG" id="GMh-AA-hqS"/>
+                <outlet property="panGesture" destination="bX4-vp-cg0" id="6iq-S0-H3o"/>
+                <outlet property="paymentButton" destination="7Lc-dm-IWz" id="Sp9-CW-J5r"/>
+                <outlet property="paymentsSumLabel" destination="L9X-Di-EvC" id="UHh-c2-IAh"/>
+                <outlet property="slider" destination="27P-SR-R7q" id="zfD-zM-bCa"/>
+                <outlet property="sliderView" destination="EC7-Fo-qpJ" id="dSM-OY-X0f"/>
+            </connections>
+            <point key="canvasLocation" x="575.5" y="107.5"/>
+        </view>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="bX4-vp-cg0">
+            <connections>
+                <action selector="panGestureAction:" destination="XZq-HB-fIH" id="RUF-Se-MgO"/>
+            </connections>
+        </panGestureRecognizer>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="SXa-UR-7oe">
+            <connections>
+                <action selector="copySum:" destination="XZq-HB-fIH" id="e5d-qA-TDh"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="0eY-Bb-6QZ">
+            <connections>
+                <action selector="copyOverpayment:" destination="XZq-HB-fIH" id="IwP-ow-Va3"/>
+            </connections>
+        </pongPressGestureRecognizer>
+        <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="b0n-wg-3Tg">
+            <connections>
+                <action selector="copyPayment:" destination="XZq-HB-fIH" id="cAG-Ie-Oy5"/>
+            </connections>
+        </pongPressGestureRecognizer>
+    </objects>
+</document>

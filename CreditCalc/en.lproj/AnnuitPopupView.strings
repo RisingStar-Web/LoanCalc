@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "23500"; ObjectID = "51B-LO-od7"; */
+"51B-LO-od7.text" = "23500";
+
+/* Class = "UILabel"; text = "23500"; ObjectID = "RN9-ui-AdP"; */
+"RN9-ui-AdP.text" = "23500";
+
+/* Class = "UILabel"; text = "23500"; ObjectID = "ZtQ-Dx-5S4"; */
+"ZtQ-Dx-5S4.text" = "23500";
+
+/* Class = "UILabel"; text = "Скопировано"; ObjectID = "gDY-SV-45Y"; */
+"gDY-SV-45Y.text" = "Copied";
+
+/* Class = "UILabel"; text = "Сумма всех\nплатежей:"; ObjectID = "yVi-LO-8ft"; */
+"yVi-LO-8ft.text" = "Total";
+
+/* Class = "UILabel"; text = "Ежемесячный\nплатеж:"; ObjectID = "yez-hS-Qd0"; */
+"yez-hS-Qd0.text" = "Monthly\npayment:";
+
+/* Class = "UILabel"; text = "Переплата:"; ObjectID = "yrC-F4-uDK"; */
+"yrC-F4-uDK.text" = "Overpayment:";

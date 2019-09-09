@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Сумма всех\nплатежей:"; ObjectID = "16X-mi-rWQ"; */
+"16X-mi-rWQ.text" = "Total:";
+
+/* Class = "UILabel"; text = "Переплата:"; ObjectID = "2Qv-aI-HAQ"; */
+"2Qv-aI-HAQ.text" = "Overpayment:";
+
+/* Class = "UILabel"; text = "Скопировано"; ObjectID = "3GC-Et-yO8"; */
+"3GC-Et-yO8.text" = "Copied";
+
+/* Class = "UIButton"; normalTitle = "23500"; ObjectID = "7Lc-dm-IWz"; */
+"7Lc-dm-IWz.normalTitle" = "23500";
+
+/* Class = "UILabel"; text = "Ежемесячный\nплатеж:"; ObjectID = "JnU-44-mIP"; */
+"JnU-44-mIP.text" = "Monthly\npayment:";
+
+/* Class = "UILabel"; text = "23500"; ObjectID = "L9X-Di-EvC"; */
+"L9X-Di-EvC.text" = "23500";
+
+/* Class = "UILabel"; text = "Оплата за 1 месяц"; ObjectID = "nec-ds-4Wr"; */
+"nec-ds-4Wr.text" = "Payment for 1 month";
+
+/* Class = "UILabel"; text = "23500"; ObjectID = "vVx-R8-5pG"; */
+"vVx-R8-5pG.text" = "23500";

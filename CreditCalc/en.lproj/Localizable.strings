@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  CreditCalc
+
+  Created by Максим Белугин on 12.11.2018.
+  Copyright © 2018 Максим Белугин. All rights reserved.
+*/
+
+"months" = "months";
+"years" = "years";
+"payment_for" = "Payment for ";
+"month" = " month";
+
