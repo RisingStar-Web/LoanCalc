@@ -40,7 +40,9 @@ class AnnuitPopupView: UIView {
     
     @IBOutlet weak var panGesture: UIPanGestureRecognizer!
     
+    
     @IBAction func panGestureAction(_ sender: UIPanGestureRecognizer) {
+        
         
         var startPoint = CGFloat()
         let normalYForPopup = screen.height/2-((screen.height-self.frame.height)/2)+6+UIApplication.shared.statusBarFrame.height
@@ -165,6 +167,8 @@ class AnnuitPopupView: UIView {
         UIPasteboard.general.string = overpaymentLabel.text
         showCopiedLabel()
     }
+    
+    
 
   
 }

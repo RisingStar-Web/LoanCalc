@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     var annuitPopup: AnnuitPopupView!
     
     @IBOutlet var infoPopupView: UIView!
+    @IBOutlet var infoPopupChildView: UIView!
     
     @IBOutlet weak var paymentTypeTitle: UILabel!
     @IBOutlet weak var paymentTypeInfoButton: UIButton!
@@ -308,9 +309,32 @@ class ViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(openShadow), name: NSNotification.Name("OpenShadow"), object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(closeShadow), name: NSNotification.Name("CloseShadow"), object: nil)
         
+        
         sumField.delegate = self
+        sumField.layer.cornerRadius = 25.0;
+        sumField.clipsToBounds = true;
+        monthsField.clipsToBounds = true;
+        percentField.clipsToBounds = true;
+        monthsField.layer.cornerRadius = 25.0;
+        percentField.layer.cornerRadius = 25.0;
         monthsField.delegate = self
         percentField.delegate = self
+        infoPopupChildView.layer.cornerRadius = 20;
+        let leftView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 10.0, height: 2.0))
+        monthsField.leftView = leftView
+        monthsField.leftViewMode = .always
+        
+        let leftView1 = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 10.0, height: 2.0))
+        percentField.leftView = leftView1
+        percentField.leftViewMode = .always
+        let leftView2 = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 10.0, height: 2.0))
+        
+        paymentType.layer.cornerRadius = 25
+//        paymentType.layer.borderColor = UIColor.blue.cgColor
+        paymentType.layer.borderWidth = 1
+        paymentType.layer.masksToBounds = true
+        sumField.leftView = leftView2
+        sumField.leftViewMode = .always
         
         sumField.addTarget(self, action: #selector(formatNumber), for: .editingChanged)
     }

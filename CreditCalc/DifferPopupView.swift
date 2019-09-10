@@ -31,7 +31,7 @@ class DifferPopupView: UIView {
     
     @IBOutlet weak var hosterView: UIView!
     
-    @IBOutlet weak var paymentButton: UIButton!
+    @IBOutlet weak var paymentButton: Rounded!
     @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var monthOfPaymentLabel: UILabel!
     @IBOutlet weak var paymentsSumLabel: UILabel!
